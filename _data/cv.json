@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
+    "name": "Zhengwei Gong",
+    "email": "gzwsjtu98@sjtu.edu.cn",
+    "phone": "+86-13926705262",
     "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "summary": "Junior in Electrical & Computer Engineering at Shanghai Jiao Tong University.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Shanghai",
+      "countryCode": "CN",
       "region": ""
     },
     "profiles": [
@@ -30,37 +30,73 @@
       }
     ]
   },
-  "work": [],
-  "education": [
+  "work": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "position": "Teaching Assistant - Intro to Circuits (ECE2150J)",
+      "company": "Shanghai Jiao Tong University",
+      "startDate": "SU2025",
+      "endDate": "",
+      "summary": "Shanghai, China",
+      "highlights": [
+        "Provided technical guidance on circuit analysis and simulations, assisting students in debugging and experimental design.",
+        "Demonstrated strong responsibility, communication skills, and long-term commitment in an academic setting."
+      ]
     }
   ],
-  "skills": [],
+  "education": [
+    {
+      "institution": "Shanghai Jiao Tong University (SJTU)",
+      "area": "Electrical & Computer Engineering",
+      "studyType": "Junior",
+      "startDate": "2023-09",
+      "endDate": "Present",
+      "gpa": "3.67/4.0",
+      "courses": [
+        "Algorithms (ECE4770J)",
+        "Algorithms for Big Data (Res1102)",
+        "Numerical Analysis (MATH4710J)",
+        "Computer Architecture",
+        "Probability and Statistics",
+        "Linear Algebra"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": [
+        "Python (PyTorch)",
+        "C/C++",
+        "OCaml",
+        "MATLAB",
+        "LaTeX",
+        "Verilog"
+      ]
+    },
+    {
+      "name": "ML Training & Optimization",
+      "keywords": [
+        "End-to-end PyTorch pipelines (Dataset/DataLoader, train/val loops, checkpointing, reproducibility)",
+        "Regression/classification",
+        "Adam/SGD, LR scheduling, regularization, loss engineering (MSE/Huber, multi-task losses)",
+        "Hyperparameter tuning"
+      ]
+    },
+    {
+      "name": "Simulation & Experimentation",
+      "keywords": [
+        "Learning-based experiments in simulated environments (CARLA, Habitat-Lab)",
+        "Evaluation with MAE/RMSE/F1 and error breakdowns"
+      ]
+    },
+    {
+      "name": "Environment & Writing",
+      "keywords": [
+        "Ubuntu-based AI development (conda, CUDA-ready PyTorch, Git, Docker, SSH)",
+        "Formal academic writing and collaborative workflows using LaTeX and Git"
+      ]
+    }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
@@ -142,11 +178,25 @@
   ],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
+      "name": "Neural Network-based Numerical Integration",
+      "category": "project",
+      "date": "2025",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "Course project (MATH471: Numerical Analysis). Built neural-network-based function approximators for definite integrals with PyTorch, including data generation, training, and evaluation; analyzed stability and generalization."
+    },
+    {
+      "name": "Machine Learning and Large-Scale Algorithm Optimization",
+      "category": "project",
+      "date": "2025",
+      "url": "",
+      "description": "Course project (Res1102: Algorithms for Big Data). Implemented perceptron, MLP, MNIST classifier, language-ID RNNs, and a masked-attention transformer for character-level GPT."
+    },
+    {
+      "name": "Algorithms & AI Foundations Self-Study Module",
+      "category": "project",
+      "date": "2025",
+      "url": "",
+      "description": "Self-directed & course project (ECE477: Intro to Algorithm). Studied advanced algorithms and co-authored a structured algorithm wiki with LaTeX and Git."
     }
   ]
 }
